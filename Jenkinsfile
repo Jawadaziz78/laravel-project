@@ -81,7 +81,7 @@ pipeline {
                                     pm2 restart ${PROJECT_TYPE}-${BRANCH_NAME} ;;
                                 laravel) 
                                     # Since master_setup.sh installed dependencies, we just optimize
-                                    sudo php artisan optimize  ;;
+                                        php8.2 artisan optimize  ;;
                             esac
                             
                             echo '✅ Deployment Successfully Completed.'

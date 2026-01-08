@@ -1,0 +1,28 @@
+# Dependencies
+/vendor
+/node_modules
+
+# Logs and Storage
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/data/*
+/storage/framework/views/*.php
+/storage/framework/sessions/*
+
+# Git and IDE
+.git
+.gitignore
+.editorconfig
+.idea
+.vscode
+*.swp
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Environment sensitive files
+.env
+.env.backup
+.phpunit.result.cache
